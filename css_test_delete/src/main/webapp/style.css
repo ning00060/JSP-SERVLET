@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    height: 70vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.cm {
+    align-content: flex-end;
+    width: 300px;
+}
+
+.homeMainDiv {
+    display: flex;
+    width: 1500px;
+    flex-direction: column;
+}
+
+.homeChildDiv {
+    display: flex;
+}
+
+.myInfoMainDiv {
+    display: flex;
+    width: 1400px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.table-container {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0033aa;
+}

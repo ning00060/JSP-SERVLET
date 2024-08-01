@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+	body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #f4f4f4;
+	font: airal,sans-serif;
+	
+	}
+	.test{
+	padding: 20px;
+	widows: 500px;
+	background-color: #fff;
+	margin: 0;
+	border-radius: 10px;
+	}
+	form {
+	display: flex;
+	flex-direction: column;
+}
+	label {
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+	input[type="text"] {
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 10px;
+}
+	button {
+	cursor: auto;
+	border-radius: 4px;
+	border: none;
+	padding: 10px;
+}
+</style>
+</head>
+<body>
+<!-- http://localhost:8080/ts1/test.html -->
+<div class="test">
+	<h1>연습 만들어보기</h1>
+	<p>http://localhost:8080/ts1/test.html</p>
+	<form action="/ts1/test1" method="post">
+		<label for="title" >문장넣기</label>
+		<input type="text" id="title" placeholder="input1" name=title>
+		<label for="description"> 문장넣기2 </label>
+		<input type="text" id ="description" placeholder="input2" name= description>
+		<button type="submit">제출</button>
+		<button type="reset">초기화</button>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+header{
+	display: flex;
+	background-color: white;
+	
+}
+
+body{
+	display: flex;
+	background-color: #f0f0f0;
+	height: 100vh;
+}
+li{
+	font-weight: bolder;
+	
+	
+}
+footer{
+	
+}

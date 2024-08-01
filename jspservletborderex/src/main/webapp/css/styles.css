@@ -1,0 +1,36 @@
+@charset "UTF-8";	
+
+body{
+	margin: 0;	
+	padding: 0;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+	font-family: Arial,sans-serif;
+}
+.card-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap:20px; /* 카ㅣ드들 사이에 간격 속성*/
+	padding: 20px;
+	
+	}
+.card-selector{
+	display:flex;
+	flex-direction:column;
+	flex: 1 1 calc(33.333% - 80px);
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	/* 수평 0, 수직 2px ,흐림반경 4px 그림자 색상 10% */
+	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	padding: 20px;
+	justify-content: center;
+	}
+	h2{
+	display:flex;
+	justify-content: center;
+	}
+	

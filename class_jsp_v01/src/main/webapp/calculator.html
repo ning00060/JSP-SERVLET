@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	body{
+	display: flex;
+	height: 100vh;
+	justify-content:center;
+	align-items:center;
+	margin:0;
+	background-color: #f0f0f0;
+	}
+	
+	.container{
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rbga(0,0,0,0.1);
+	width:  300px;
+	}
+	
+	form {
+	flex-direction:row;
+	font-size: 20px;
+}
+	label {
+	margin-top: 5px;
+	
+}
+	input[type="number"] {
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding:8px;
+	width: 90%;
+	
+}
+	input[type="submit"]:hover {
+	background-color: #45a049;
+	color:black;
+	border-radius: 4px;
+	padding: 10px;
+	border: 2px solid #ccc;
+	width: 100%;
+	
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>간단한 계산기</h1>
+		<form action="calculate.jsp" method="POST">
+		<label for="num1"> 첫번째 숫자를 입력하세요:</label>
+		<input type="number" id="num1" name="num1" required="required" value="10">
+		<label for="num2"> 두번째 숫자를 입력하세요:</label>
+		<input type="number" id="num2" name="num2" required="required" value="20">
+		
+		<input type="submit" value="계산 요청하기" >
+		</form>
+	</div>
+</body>
+</html>

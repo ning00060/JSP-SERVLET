@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+display: flex;
+background-color: #f0f0f0;
+margin: 0;
+padding: 0;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+.container{
+	background-color: #fff;
+	padding: 20px;
+	margin: 10px;
+	border: 4px solid #ccc;
+	border-radius: 8px;
+	width: 100%;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+form>label{
+display: inline-block;
+margin-bottom: 15px;
+}
+
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<h2>post로 받기</h2>
+			<form action="/ts1/test2" method="post">
+				<label>요청방식</label><br>
+				<input type="checkbox"id="type1" name="type"  value="포스트">				
+				<label for="type1">포스트</label>
+			
+				<input type="checkbox"id="type2" name="type"  value="겟">				
+				<label for="type2">겟</label>
+				<hr>
+				<label for="username">이름</label>
+				<input type="text" id="username" name="username">
+				<br>
+				<button type="submit">제출</button>
+			</form>
+	
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.container{
+display:flex;
+flex-wrap:wrap;
+margin: 0;
+}
+.item{
+display:flex;
+width: calc(32.333%); 
+background-color: #bf6262;
+height: 100vh;
+text-align: center;
+justify-content: center;
+align-content: center;
+}
+h2{
+display:flex;
+height: 100vh;
+text-align: center;
+align-items: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="item">
+		<h2>item1</h2>
+	</div>
+	<div class="item" style="border-left: 5px solid black;border-right: 5px solid black;">
+		<h2>item2</h2>
+	</div>
+	<div class="item">
+		<h2>item3</h2>
+	</div>
+</div>
+</body>
+</html>
